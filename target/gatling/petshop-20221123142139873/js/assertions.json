@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.petshop",
+  "simulationId": "petshop",
+  "start": 1669213299873,
+  "description": "ffff",
+  "scenarios": ["registerUser"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,941 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 11,
+        "ok": 11,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 766,
+        "ok": 766,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 291,
+        "ok": 291,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 150,
+        "ok": 150,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 240,
+        "ok": 240,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 248,
+        "ok": 248,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 517,
+        "ok": 517,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 716,
+        "ok": 716,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 11,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.3235294117647059,
+        "ok": 0.3235294117647059,
+        "ko": 0
+    }
+},
+"contents": {
+"req_petshop-createo-f461e": {
+        "type": "REQUEST",
+        "name": "PetShop_CreateOrder_00_LandingPage",
+"path": "PetShop_CreateOrder_00_LandingPage",
+"pathFormatted": "req_petshop-createo-f461e",
+"stats": {
+    "name": "PetShop_CreateOrder_00_LandingPage",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 766,
+        "ok": 766,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 766,
+        "ok": 766,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 766,
+        "ok": 766,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 766,
+        "ok": 766,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 766,
+        "ok": 766,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 766,
+        "ok": 766,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 766,
+        "ok": 766,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.029411764705882353,
+        "ok": 0.029411764705882353,
+        "ko": 0
+    }
+}
+    },"req_petshop-createo-a414e": {
+        "type": "REQUEST",
+        "name": "PetShop_CreateOrder_01_ClickSignIn",
+"path": "PetShop_CreateOrder_01_ClickSignIn",
+"pathFormatted": "req_petshop-createo-a414e",
+"stats": {
+    "name": "PetShop_CreateOrder_01_ClickSignIn",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 240,
+        "ok": 240,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 240,
+        "ok": 240,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 240,
+        "ok": 240,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 240,
+        "ok": 240,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 240,
+        "ok": 240,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 240,
+        "ok": 240,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 240,
+        "ok": 240,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.029411764705882353,
+        "ok": 0.029411764705882353,
+        "ko": 0
+    }
+}
+    },"req_petshop-createo-b2ddc": {
+        "type": "REQUEST",
+        "name": "PetShop_CreateOrder_02_Login",
+"path": "PetShop_CreateOrder_02_Login",
+"pathFormatted": "req_petshop-createo-b2ddc",
+"stats": {
+    "name": "PetShop_CreateOrder_02_Login",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 246,
+        "ok": 246,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 246,
+        "ok": 246,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 246,
+        "ok": 246,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 246,
+        "ok": 246,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 246,
+        "ok": 246,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 246,
+        "ok": 246,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 246,
+        "ok": 246,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.029411764705882353,
+        "ok": 0.029411764705882353,
+        "ko": 0
+    }
+}
+    },"req_petshop-createo-91673": {
+        "type": "REQUEST",
+        "name": "PetShop_CreateOrder_02_Login Redirect 1",
+"path": "PetShop_CreateOrder_02_Login Redirect 1",
+"pathFormatted": "req_petshop-createo-91673",
+"stats": {
+    "name": "PetShop_CreateOrder_02_Login Redirect 1",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 239,
+        "ok": 239,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 239,
+        "ok": 239,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 239,
+        "ok": 239,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 239,
+        "ok": 239,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 239,
+        "ok": 239,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 239,
+        "ok": 239,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 239,
+        "ok": 239,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.029411764705882353,
+        "ok": 0.029411764705882353,
+        "ko": 0
+    }
+}
+    },"req_petshop-createo-a76cf": {
+        "type": "REQUEST",
+        "name": "PetShop_CreateOrder_03_SelectCategory",
+"path": "PetShop_CreateOrder_03_SelectCategory",
+"pathFormatted": "req_petshop-createo-a76cf",
+"stats": {
+    "name": "PetShop_CreateOrder_03_SelectCategory",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.029411764705882353,
+        "ok": 0.029411764705882353,
+        "ko": 0
+    }
+}
+    },"req_petshop-createo-dd974": {
+        "type": "REQUEST",
+        "name": "PetShop_CreateOrder_04_SelectProduct",
+"path": "PetShop_CreateOrder_04_SelectProduct",
+"pathFormatted": "req_petshop-createo-dd974",
+"stats": {
+    "name": "PetShop_CreateOrder_04_SelectProduct",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 249,
+        "ok": 249,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 249,
+        "ok": 249,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 249,
+        "ok": 249,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 249,
+        "ok": 249,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 249,
+        "ok": 249,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 249,
+        "ok": 249,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 249,
+        "ok": 249,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.029411764705882353,
+        "ok": 0.029411764705882353,
+        "ko": 0
+    }
+}
+    },"req_petshop-createo-c3708": {
+        "type": "REQUEST",
+        "name": "PetShop_CreateOrder_05_ViewItem",
+"path": "PetShop_CreateOrder_05_ViewItem",
+"pathFormatted": "req_petshop-createo-c3708",
+"stats": {
+    "name": "PetShop_CreateOrder_05_ViewItem",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 239,
+        "ok": 239,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 239,
+        "ok": 239,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 239,
+        "ok": 239,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 239,
+        "ok": 239,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 239,
+        "ok": 239,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 239,
+        "ok": 239,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 239,
+        "ok": 239,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.029411764705882353,
+        "ok": 0.029411764705882353,
+        "ko": 0
+    }
+}
+    },"req_petshop-createo-1f934": {
+        "type": "REQUEST",
+        "name": "PetShop_CreateOrder_05_AddToCart",
+"path": "PetShop_CreateOrder_05_AddToCart",
+"pathFormatted": "req_petshop-createo-1f934",
+"stats": {
+    "name": "PetShop_CreateOrder_05_AddToCart",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 243,
+        "ok": 243,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 243,
+        "ok": 243,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 243,
+        "ok": 243,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 243,
+        "ok": 243,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 243,
+        "ok": 243,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 243,
+        "ok": 243,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 243,
+        "ok": 243,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.029411764705882353,
+        "ok": 0.029411764705882353,
+        "ko": 0
+    }
+}
+    },"req_petshop-createo-b77b7": {
+        "type": "REQUEST",
+        "name": "PetShop_CreateOrder_06_ProceedCheckout",
+"path": "PetShop_CreateOrder_06_ProceedCheckout",
+"pathFormatted": "req_petshop-createo-b77b7",
+"stats": {
+    "name": "PetShop_CreateOrder_06_ProceedCheckout",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.029411764705882353,
+        "ok": 0.029411764705882353,
+        "ko": 0
+    }
+}
+    },"req_petshop-createo-927de": {
+        "type": "REQUEST",
+        "name": "PetShop_CreateOrder_07_PressContinue",
+"path": "PetShop_CreateOrder_07_PressContinue",
+"pathFormatted": "req_petshop-createo-927de",
+"stats": {
+    "name": "PetShop_CreateOrder_07_PressContinue",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 238,
+        "ok": 238,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.029411764705882353,
+        "ok": 0.029411764705882353,
+        "ko": 0
+    }
+}
+    },"req_petshop-createo-cf6aa": {
+        "type": "REQUEST",
+        "name": "PetShop_CreateOrder_08_ConfirmOrder",
+"path": "PetShop_CreateOrder_08_ConfirmOrder",
+"pathFormatted": "req_petshop-createo-cf6aa",
+"stats": {
+    "name": "PetShop_CreateOrder_08_ConfirmOrder",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 268,
+        "ok": 268,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 268,
+        "ok": 268,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 268,
+        "ok": 268,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 268,
+        "ok": 268,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 268,
+        "ok": 268,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 268,
+        "ok": 268,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 268,
+        "ok": 268,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.029411764705882353,
+        "ok": 0.029411764705882353,
+        "ko": 0
+    }
+}
+    }
+}
+
+}

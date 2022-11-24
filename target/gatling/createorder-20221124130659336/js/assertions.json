@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.createOrder",
+  "simulationId": "createorder",
+  "start": 1669295219336,
+  "description": "df",
+  "scenarios": ["createOrder"],
+  "assertions": [
+
+  ]
+}

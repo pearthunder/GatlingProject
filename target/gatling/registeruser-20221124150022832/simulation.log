@@ -1,0 +1,7 @@
+RUN	com.gatling.tests.registerUser	registeruser	1669302022832	ASD	3.6.1
+USER	registerUser	START	1669302024789
+REQUEST		RegisterUser_00_LandingPage	1669302024835	1669302025614	OK	 
+REQUEST		RegisterUser_01_ClickSignIn	1669302027829	1669302028068	OK	 
+REQUEST		RegisterUser_02_ClickRegisterNow	1669302030082	1669302030325	OK	 
+ERROR	RegisterUser_03_SaveAccountInfo: Failed to build request: Failed to build request: j.u.NoSuchElementException: No attribute named 'randstring' is defined 	1669302032359
+USER	registerUser	END	1669302032365

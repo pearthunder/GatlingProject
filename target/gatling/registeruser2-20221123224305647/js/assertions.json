@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.registerUser2",
+  "simulationId": "registeruser2",
+  "start": 1669243385647,
+  "description": "asd",
+  "scenarios": ["createOrder", "registerUser"],
+  "assertions": [
+
+  ]
+}

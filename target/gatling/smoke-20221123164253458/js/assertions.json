@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.smoke",
+  "simulationId": "smoke",
+  "start": 1669221773458,
+  "description": "sadf",
+  "scenarios": ["registerUser"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,14 @@
+RUN	com.gatling.tests.createOrder	createorder	1669234205843	j	3.6.1
+USER	createOrder	START	1669234207733
+REQUEST		CreateOrder_00_LandingPage	1669234207777	1669234208595	OK	 
+REQUEST		CreateOrder_01_ClickSignIn	1669234210843	1669234211072	OK	 
+REQUEST		CreateOrder_02_Login	1669234213099	1669234213330	OK	 
+REQUEST		CreateOrder_02_Login Redirect 1	1669234213336	1669234213568	OK	 
+REQUEST		CreateOrder_03_SelectCategory	1669234215590	1669234215822	KO	regex(productId=[0-8]).find.exists, found nothing
+ERROR	CreateOrder_04_SelectProduct: Failed to build request: No attribute named 'p_productId' is defined 	1669234217864
+REQUEST		CreateOrder_05_ViewItem	1669234219871	1669234220100	OK	 
+REQUEST		CreateOrder_05_AddToCart	1669234222115	1669234222346	OK	 
+REQUEST		CreateOrder_06_ProceedCheckout	1669234224365	1669234224602	OK	 
+REQUEST		CreateOrder_07_PressContinue	1669234226623	1669234226854	OK	 
+REQUEST		CreateOrder_08_ConfirmOrder	1669234228870	1669234229099	OK	 
+USER	createOrder	END	1669234229111

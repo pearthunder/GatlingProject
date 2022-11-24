@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.updateOrder",
+  "simulationId": "updateorder",
+  "start": 1669315582204,
+  "description": "asdf",
+  "scenarios": ["createOrder"],
+  "assertions": [
+
+  ]
+}
