@@ -172,8 +172,8 @@ class PetShop_Smoke extends Simulation {
 
 
 	setUp(
-		scn3.inject(atOnceUsers(3)).protocols(httpProtocol),
-		scn2.inject(atOnceUsers(3)).protocols(httpProtocol),
-		scn1.inject(atOnceUsers(3)).protocols(httpProtocol)
+		scn3.inject(atOnceUsers(1)).protocols(httpProtocol),
+		scn2.inject(atOnceUsers(1)).protocols(httpProtocol),
+		scn1.inject(atOnceUsers(1)).protocols(httpProtocol)
 	)
 }
