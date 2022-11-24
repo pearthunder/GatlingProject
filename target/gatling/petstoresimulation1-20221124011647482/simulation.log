@@ -1,4 +1,0 @@
-RUN	com.octoperf.tutorials.four.PetStoreSimulation1	petstoresimulation1	1669252607482	df	3.6.1
-USER	PetStoreSimulation	START	1669252610056
-REQUEST		Signon Form	1669252610106	1669252610943	OK	 
-USER	PetStoreSimulation	END	1669252611016
