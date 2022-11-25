@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.PetShop_Smoke",
+  "simulationId": "petshop-smoke",
+  "start": 1669382490918,
+  "description": "dfsg",
+  "scenarios": ["createOrder", "registerUser", "updateOrder"],
+  "assertions": [
+
+  ]
+}
